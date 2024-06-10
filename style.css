@@ -130,3 +130,83 @@ body {
 header, footer, #formulario {
     background-color: #f7f7f7;
 }
+
+/* pantalla empleados */
+
+/* parte izquierda */
+
+#empleados1 {
+    margin: 20px 20px 20px 20px;
+    padding: 30px 30px 30px 30px;
+    background-color: #f7f7f7;
+    height: 146px;
+    display: inline-block;
+}
+
+#text_emple1 {
+    position:relative;
+    bottom: 40px;
+}
+
+/* parte derecha */
+
+#empleados2 {
+    margin: 20px 20px 20px 20px;
+    padding: 30px 30px 30px 30px;
+    background-color: #f7f7f7;
+    display: inline-block;
+    border-radius: 10px;
+    position: fixed;
+}
+
+#e_nombre {
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+#cedula {
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+#e_email {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 98%;
+}
+
+#ingresar_perso {
+    margin-left: 65px;
+}
+
+#form_emple #boton {
+    position: relative;
+    right: 4%;
+}
+
+/* header */
+
+#pestañas {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+#b_usuario {
+    padding: 10px 10px 25px 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-color: darkturquoise;
+    border-radius: 10px;
+    background-color: darkturquoise;
+    height: 30px;
+    width: 100px;
+}
+
+/* clientes */
+
