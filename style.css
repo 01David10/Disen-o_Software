@@ -14,6 +14,7 @@ header {
 #footer1 {
     background-image: url('Images/footer1.jpeg');
     margin-top: 10px;
+    margin-left: 10px;
     display:inline-block;
     height: 100px;
     width: 850px;
@@ -241,6 +242,11 @@ header, footer, #formulario {
     display: inline-block;
 }
 
+#seleccion_opcion {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
 /* parte derecha */
 
 #clientes2 {
@@ -264,4 +270,9 @@ header, footer, #formulario {
     margin-left: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
+}
+
+footer {
+    height: 120px;
+    margin-bottom: 15px;
 }
