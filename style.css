@@ -1,0 +1,99 @@
+#logo {
+    height: 100px;
+}
+
+#sol_y_luna {
+    display: inline-block;
+}
+
+#footer1 {
+    background-image: url('Images/footer1.jpeg');
+    display:inline-block;
+    height: 100px;
+    width: 850px;
+}
+
+#footer2 {
+    display: inline-block;
+    width: 300px;
+}
+
+#footer3 {
+    display: inline-block;
+    height: 100px;
+}
+
+#footer_text {
+    position: relative;
+    top: 40%;
+}
+
+.redes {
+    height: 50px;
+    position: relative;
+    top: 50%;
+}
+
+footer {
+    display: flex;
+}
+
+#login1 {
+    display: inline-block;
+    height: 400px;
+    width: 370px;
+}
+
+#login2 {
+    display: inline-block;
+}
+
+#formulario {
+    margin-left: 20px;
+    border: 10px solid darkturquoise;
+    outline: 2px solid black;
+    box-shadow: inset 0 0 0 2px black;
+    height: 350px;
+}
+
+.login_images {
+    margin-left: 10px;
+    height: 250px;
+    width: 300px;
+    position: relative;
+    bottom: 30px;
+}
+
+.input {
+    margin-left: 10px;
+    border: 0;
+    background-color: darkturquoise;
+    height: 30px;
+    width: 300px;
+}
+
+#ingresar {
+    margin-left: 110px;
+}
+
+#olvido {
+    margin-left: 50px;
+}
+
+#boton {
+    margin-left: 120px;
+    margin-bottom: 10px;
+    border-color: darkturquoise;
+    border-radius: 10px;
+    background-color: darkturquoise;
+    height: 30px;
+    width: 100px;
+}
+
+.label {
+    margin-left: 10px;
+}
+
+#redes_ingreso {
+    margin-left: 90px;
+}
