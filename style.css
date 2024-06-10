@@ -42,6 +42,7 @@ header {
 #footer_text {
     position: relative;
     top: 40%;
+    font-style: italic;
 }
 
 .redes {
@@ -56,7 +57,7 @@ footer {
 
 #login1 {
     display: inline-block;
-    height: 400px;
+    height: 430px;
     width: 370px;
 }
 
@@ -70,7 +71,7 @@ footer {
     border: 10px solid darkturquoise;
     outline: 2px solid black;
     box-shadow: inset 0 0 0 2px black;
-    height: 350px;
+    height: 370px;
 }
 
 .login_images {
@@ -110,6 +111,11 @@ footer {
 .label {
     margin-left: 10px;
 }
+
+.checkbox {
+    margin-left: 120px;
+}
+
 
 #redes_ingreso {
     margin-left: 90px;
