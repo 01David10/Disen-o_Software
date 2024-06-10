@@ -1,13 +1,19 @@
+header {
+    display: flex;
+}
+
 #logo {
     height: 100px;
 }
 
 #sol_y_luna {
     display: inline-block;
+    margin-top: 30px;
 }
 
 #footer1 {
     background-image: url('Images/footer1.jpeg');
+    margin-top: 10px;
     display:inline-block;
     height: 100px;
     width: 850px;
@@ -16,6 +22,16 @@
 #footer2 {
     display: inline-block;
     width: 300px;
+}
+
+#footer2 #logo {
+    position: relative;
+    top: 10%;
+}
+
+#footer2 #sol_y_luna {
+    position: relative;
+    bottom: 15%;
 }
 
 #footer3 {
@@ -31,7 +47,7 @@
 .redes {
     height: 50px;
     position: relative;
-    top: 50%;
+    top: 40%;
 }
 
 footer {
@@ -49,6 +65,7 @@ footer {
 }
 
 #formulario {
+    margin-top: 20px;
     margin-left: 20px;
     border: 10px solid darkturquoise;
     outline: 2px solid black;
@@ -96,4 +113,14 @@ footer {
 
 #redes_ingreso {
     margin-left: 90px;
+}
+
+body {
+    background-image: url('Images/fondo.jpeg');
+    background-size: cover;
+}
+
+/* para anular el fondo en estas zonas */
+header, footer, #formulario {
+    background-color: #f7f7f7;
 }
